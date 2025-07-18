@@ -82,6 +82,13 @@ Utilized data visualization, statistical methods, and machine learning models (R
 
 ## 🏥 Professional Experience
 
+
+**Graduate Teaching Assistant** - *Graduate Teaching Assistant (Virginina) (Sep 2024 - Present)*
+- Delivered comprehensive academic support by grading assignments, preparing course materials, and conducting review sessions, ensuring consistent accuracy and adherence to academic guidelines.
+- Offered personalized one-on-one tutoring during office hours, providing students with tailored guidance to reinforce course concepts and improve academic performance.
+- Excelled in time management by effectively balancing teaching responsibilities with ongoing research commitments, consistently receiving positive feedback from both students and faculty.
+- Collaborated closely with faculty to ensure the effective delivery of course content, while maintaining academic integrity and upholding high academic standards.
+
 **Intern** – * Aruna Multispeciality Hospital (India)(Nov 2021 - Jan 2022)*  
 - Employed in Patient Health records, Health Informatics, Scheduling, Inventory, Budgeting, Stock management and dispensing of drugs.
 
