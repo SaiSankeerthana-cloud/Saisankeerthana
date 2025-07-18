@@ -1,5 +1,5 @@
 
-<h1 align="center"> Hello, I’m Saisankeerthana Thatini</h1>
+<h1 align="center"> Hello, I’m Sai Sankeerthana Thatini</h1>
 <h3 align="center">Master's in Health Informatics | Data Analytics | Graduate Teaching Assistant </h3>
 
 ---
