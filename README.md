@@ -1,4 +1,4 @@
-<h1 align="center">💡 Hello, I’m Sai Sankeerthana Thatini</h1>
+<h1 align="center">Hello, I’m Sai Sankeerthana Thatini</h1>
 <h3 align="center">Master's in Health Informatics | Graduate Research Assistant | Graduate Teaching Assistant | Data Analytics</h3>
 
 ---
