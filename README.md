@@ -3,264 +3,203 @@
 <h3 align="center">Clinical Data Analyst | Clinical Data Scientist</h3>
 
 <p align="center">
-Clinical Data Analytics • Clinical Trials • SAS • SQL • Python • R • CDISC • Healthcare Analytics
+Clinical Trials • Clinical Data Management • SAS • SQL • Python • CDISC • RBQM
 </p>
 
 ---
 
-## 👩‍💻 Professional Summary
+## 👩‍💻 About Me
 
-I am a **Clinical Data Scientist / Clinical Data Analyst with 5+ years of experience** supporting **Phase I–IV global clinical trials** across **Oncology, Immunology, Cardiology, Rare Diseases, Vaccines, Respiratory, and Infectious Diseases**.
+I help clinical trial teams get to **clean, reliable, submission-ready data faster** through clinical data review, reconciliation, automation, and quality monitoring.
 
-My experience includes **clinical data management, clinical data analytics, statistical programming, CDISC SDTM/ADaM data review and validation, data reconciliation, query management, clinical reporting, and regulatory-compliant data workflows**.
+I have **5+ years of experience supporting Phase I–IV global clinical trials** across CRO and pharmaceutical environments, including Oncology, Immunology, Cardiology, Rare Diseases, Vaccines, Cardiovascular, Respiratory, and Infectious Diseases.
 
-I have strong hands-on experience with **SAS, SQL, Python, and R** for clinical data analysis, statistical reporting, automation, and quality review, along with **Power BI and Tableau** for clinical dashboards and operational reporting.
+My work includes:
 
-I also have experience with **Medidata Rave, Oracle InForm, REDCap, Veeva Vault, MedDRA, WHO Drug, CDISC standards, GCP, ICH E6(R3), FDA 21 CFR Part 11, RBQM/RBM, Real-World Data (RWD), Real-World Evidence (RWE), AI/ML-assisted clinical analytics, AWS, and Azure**.
+- Clinical data review, validation, cleaning, and query management
+- EDC, safety, laboratory, ECG, imaging, PK, and external vendor data reconciliation
+- SAS, SQL, Python, and R programming for clinical data review and analytics
+- CDISC SDTM/ADaM review, controlled terminology, and metadata validation
+- MedDRA and WHO Drug coding quality checks
+- RBQM/RBM, centralized monitoring, KRIs, and clinical quality metrics
+- eCRF and edit-check UAT
+- Database-lock readiness and regulatory reporting
+- Power BI and Tableau clinical dashboards
+
+🎓 **Background:** Bachelor of Pharmacy and Master of Science in Health Informatics from George Mason University.
+
+☁️ **Certifications:** AWS Certified Cloud Practitioner • AWS Certified AI Practitioner • Google Advanced Data Analytics
+
+---
+
+## 🚀 Featured Clinical Data Projects
+
+### 🔍 [EDC Edit-Check Engine](https://github.com/SaiSankeerthana-cloud/edc-edit-check-engine)
+
+A configuration-driven Python engine that applies **YAML-defined edit checks** to synthetic EDC-style datasets and generates structured draft query listings and site-level quality summaries.
+
+**Highlights**
+- DVS-style configurable edit checks
+- Required-field and plausibility-range validation
+- Cross-form date consistency checks
+- Conditional clinical data validation
+- Duplicate-record detection
+- Automated query generation
+- Site-level discrepancy summaries
+- 12 automated tests with CI
+
+**Tech:** `Python` `Pandas` `YAML` `Pytest` `GitHub Actions`
+
+---
+
+### 🛡️ [SAE Reconciliation](https://github.com/SaiSankeerthana-cloud/sae-reconciliation)
+
+A Python-based reconciliation workflow comparing **Serious Adverse Events recorded in EDC data against safety database records**.
+
+**Highlights**
+- EDC ↔ Safety database reconciliation
+- Matched and discrepant SAE identification
+- Onset-date discrepancy detection
+- Event-term and outcome comparison
+- EDC-only and safety-only record detection
+- Configurable date-tolerance matching
+- Duplicate case-match prevention
+- 8 automated tests with CI
+
+**Tech:** `Python` `Pandas` `SAE Reconciliation` `Pharmacovigilance`
+
+---
+
+### 🧬 [SDTM DM & AE Mapping](https://github.com/SaiSankeerthana-cloud/sdtm-dm-ae-mapping)
+
+A clinical programming project demonstrating transformation of **synthetic raw CRF data into CDISC SDTM DM and AE domains** with conformance checks.
+
+**Highlights**
+- Raw CRF → SDTM transformation
+- DM and AE domain mapping
+- USUBJID, AGE, AESEQ, RFSTDTC/RFENDTC derivations
+- SDTM study-day derivations
+- Controlled terminology mapping
+- ISO 8601 date validation
+- Required-variable and uniqueness checks
+- 6 automated tests
+
+**Tech:** `Python` `Pandas` `CDISC` `SDTM`
+
+---
+
+### 📊 [RBQM Key Risk Indicator Monitor](https://github.com/SaiSankeerthana-cloud/rbqm-kri-monitor)
+
+A Python-based **Risk-Based Quality Management (RBQM)** project that calculates site-level Key Risk Indicators from synthetic clinical-trial operational data.
+
+**Highlights**
+- Query rate monitoring
+- Adverse event reporting rates
+- Protocol deviation rates
+- eCRF data-entry lag
+- Aged-query monitoring
+- Robust z-score site comparison
+- Risk-based site flagging
+- Low-enrollment site handling
+- HTML monitoring report and visualization
+- 7 automated tests
+
+**Tech:** `Python` `Pandas` `NumPy` `Matplotlib` `RBQM` `Centralized Monitoring`
 
 ---
 
 ## 🛠️ Technical Skills
 
-### 📊 Statistical Programming & Analytics
+**Clinical Data Management**  
+Clinical Data Review • Data Validation • Data Cleaning • Query Management • Data Reconciliation • Database Lock • EDC • eCRF UAT
 
-<p>
-  <code>SAS</code>
-  <code>SQL</code>
-  <code>Python</code>
-  <code>R</code>
-  <code>Pandas</code>
-  <code>NumPy</code>
-  <code>SAS Macro</code>
-  <code>PROC SQL</code>
-  <code>PROC REPORT</code>
-  <code>PROC FREQ</code>
-  <code>PROC MEANS</code>
-</p>
+**Programming & Analytics**  
+SAS • SAS Macro • PROC SQL • SQL • Python • Pandas • NumPy • R
 
-### 🧬 Clinical Data Management
+**Clinical Standards**  
+CDISC • SDTM • ADaM • Define.xml • Controlled Terminology
 
-<p>
-  <code>Clinical Data Review</code>
-  <code>Data Validation</code>
-  <code>Data Cleaning</code>
-  <code>Data Reconciliation</code>
-  <code>Query Management</code>
-  <code>Database Lock</code>
-  <code>Data Quality Management</code>
-</p>
+**Clinical Systems**  
+Medidata Rave • Oracle InForm • Oracle Clinical • REDCap • Veeva Vault • OpenClinica
 
-### 📋 Clinical Standards & Regulatory
+**Medical Terminologies**  
+MedDRA • WHO Drug • ICD-10 • SNOMED CT
 
-<p>
-  <code>CDISC</code>
-  <code>SDTM</code>
-  <code>ADaM</code>
-  <code>Define.xml</code>
-  <code>ICH-GCP</code>
-  <code>ICH E6(R3)</code>
-  <code>FDA 21 CFR Part 11</code>
-  <code>GAMP 5</code>
-  <code>ALCOA+</code>
-</p>
+**RBQM & Visualization**  
+RBQM • RBM • Centralized Monitoring • Power BI • Tableau • TIBCO Spotfire • SAS Visual Analytics
 
-### 💻 Clinical Systems & EDC Platforms
+**Databases & Cloud**  
+Oracle • SQL Server • PostgreSQL • Snowflake • AWS • Microsoft Azure • Git • GitHub
 
-<p>
-  <code>Medidata Rave</code>
-  <code>Oracle InForm</code>
-  <code>Oracle Clinical</code>
-  <code>REDCap</code>
-  <code>Veeva Vault</code>
-  <code>OpenClinica</code>
-  <code>LabKey</code>
-</p>
-
-### 🩺 Medical Coding & Terminologies
-
-<p>
-  <code>MedDRA</code>
-  <code>WHO Drug</code>
-  <code>ICD-10</code>
-  <code>SNOMED CT</code>
-</p>
-
-### 📈 Data Visualization & Reporting
-
-<p>
-  <code>Power BI</code>
-  <code>Tableau</code>
-  <code>TIBCO Spotfire</code>
-  <code>SAS Visual Analytics</code>
-</p>
-
-### 🗄️ Databases & Cloud
-
-<p>
-  <code>Oracle</code>
-  <code>SQL Server</code>
-  <code>PostgreSQL</code>
-  <code>Snowflake</code>
-  <code>AWS</code>
-  <code>Microsoft Azure</code>
-  <code>Git</code>
-  <code>GitHub</code>
-</p>
+**Regulatory & Quality**  
+ICH-GCP • ICH E6(R3) • FDA 21 CFR Part 11 • GAMP 5 • ALCOA+
 
 ---
 
 ## 💼 Professional Experience
 
-### 🧬 Clinical Data Scientist | Parexel
-**July 2025 – Present | Remote, NC**
+### Clinical Data Scientist | Parexel
+**July 2025 – Present**
 
-- Support **Phase II–IV global clinical trials** across Oncology, Immunology, Cardiology, Rare Diseases, and Vaccines.
-- Perform **clinical data analytics, data review, validation, discrepancy analysis, reconciliation, and query management**.
-- Develop automated **SAS, Python, and SQL workflows** for clinical data validation, edit checks, reconciliation, and quality monitoring.
-- Build **Power BI and Tableau dashboards** to monitor enrollment, site performance, protocol deviations, query aging, data quality, and database readiness.
-- Support **CDISC SDTM/ADaM** data review and quality verification.
-- Apply **Risk-Based Quality Management (RBQM)** and **Risk-Based Monitoring (RBM)** methodologies.
-- Perform statistical trend analysis and anomaly detection to identify potential data integrity risks.
-- Support database lock and inspection readiness activities.
-- Utilize **MedDRA and WHO Drug** for medical coding validation and safety data consistency.
-- Work with **AWS and Microsoft Azure** for secure clinical data processing and analytics.
+Clinical data analytics, review, reconciliation, automated SAS/Python/SQL workflows, CDISC review, RBQM/RBM, medical coding quality checks, clinical dashboards, and database-lock readiness for Phase II–IV clinical trials.
 
----
+### Clinical Data Analyst / Clinical Data Scientist | Syneos Health
+**June 2024 – June 2025**
 
-### 📊 Clinical Data Analyst / Clinical Data Scientist | Syneos Health
-**June 2024 – June 2025 | Morrisville, NC**
+Clinical data review, SAS/SQL programming, external data reconciliation, SDTM review, operational reporting, medical coding quality checks, centralized review, and database-lock activities for Phase II–III studies.
 
-- Supported **Phase II–III global clinical trials** across Oncology, Immunology, and Cardiology.
-- Conducted clinical data review, quality assessments, and study-level data validation.
-- Developed and maintained **SAS and SQL programs** for data extraction, edit checks, discrepancy reporting, and operational metrics.
-- Reconciled laboratory, ECG, imaging, PK, adverse event, and EDC datasets.
-- Supported **CDISC SDTM mapping**, controlled terminology, metadata, and Define.xml quality review.
-- Generated clinical listings, patient profiles, and operational reports using SAS.
-- Created **Tableau dashboards** for site performance, enrollment, query aging, missing forms, and clinical data quality.
-- Supported database lock readiness, regulatory submissions, and Clinical Study Reports.
-- Performed **MedDRA and WHO Drug** medical coding quality checks.
+### Clinical Data Analyst / Clinical SAS Programmer | Cipla
+**January 2021 – December 2023**
 
----
+Clinical data validation, SAS/SQL programming, listings and patient profiles, EDC data cleaning, reconciliation, SDTM review, medical coding validation, UAT, and database-lock activities for Phase II–III clinical trials.
 
-### 💻 Clinical Data Analyst / Clinical SAS Programmer | Cipla
-**January 2021 – December 2023 | India**
+### Intern | Indian Genomix
+**August 2020 – October 2020**
 
-- Supported **Phase II–III clinical trials** across Cardiovascular, Respiratory, and Infectious Diseases.
-- Developed programs using **SAS Base, SAS Macro, PROC SQL, PROC REPORT, PROC FREQ, and PROC MEANS**.
-- Wrote optimized SQL queries for clinical data extraction, validation, and reconciliation.
-- Generated automated SAS reports for adverse events, concomitant medications, laboratory results, and subject disposition.
-- Performed clinical data validation, discrepancy management, query review, and reconciliation.
-- Supported **CDISC SDTM** dataset and source-to-target mapping reviews.
-- Validated **MedDRA and WHO Drug** coding.
-- Participated in **User Acceptance Testing (UAT)** for Medidata Rave study builds and database updates.
-- Supported database lock activities and clinical data quality reviews.
-- Developed reusable **SAS Macros and standardized reporting templates** to improve reporting efficiency.
-
----
-
-### 💊 Intern | Indian Genomix
-**August 2020 – October 2020 | India**
-
-- Assisted with virtual drug screening and molecular design.
-- Supported formulation development for tablets, liquid oral products, and parenteral formulations.
-- Performed pharmaceutical **Quality Assurance (QA)** and **Quality Control (QC)** activities.
-
----
-
-## 🚀 Featured Projects
-
-### 🫀 AI-Driven ECG Arrhythmia Diagnosis
-
-Developed a deep learning solution using **CNN and LSTM models** to classify ECG arrhythmias using the **MIT-BIH Arrhythmia Dataset**.
-
-**Technologies:** `Python` `CNN` `LSTM` `Deep Learning` `Healthcare AI`
-
----
-
-### 👁️ Diabetic Retinopathy Detection
-
-Developed a **CNN-based medical imaging classification system** for detecting and classifying diabetic retinopathy severity from retinal fundus images.
-
-**Technologies:** `Python` `CNN` `Deep Learning` `Medical Imaging`
-
----
-
-### 🩺 Chronic Kidney Disease Analytics
-
-Applied clinical and healthcare data analytics to investigate **CKD risk factors, disease progression, and patient outcomes** using healthcare data.
-
-**Technologies:** `Python` `SQL` `Machine Learning` `Healthcare Analytics` `RWD`
-
----
-
-### ⚕️ Obesity Risk Classification
-
-Developed **Random Forest and Logistic Regression** models to analyze obesity risk factors, including family history, physical activity, dietary habits, and lifestyle factors.
-
-**Technologies:** `Python` `Machine Learning` `Random Forest` `Logistic Regression`
-
----
-
-### 🏥 Emergency Department Utilization Analysis
-
-Analyzed **2021 National Survey of Children's Health (NSCH)** data to investigate relationships between pediatric emergency department utilization and socioeconomic factors.
-
-**Technologies:** `Healthcare Analytics` `Statistical Analysis` `Public Health`
-
----
-
-### 🧠 Alzheimer's Disease Drug Discovery
-
-Performed virtual screening of approximately **100 coumarin derivatives** against BACE1 and AChE enzymes to identify potential therapeutic candidates.
-
-**Tools:** `PyRx` `DOCKTHOR` `BIOVIA Discovery Studio` `SWISSADME`
+Supported virtual drug screening, molecular design, pharmaceutical formulation, and QA/QC activities.
 
 ---
 
 ## 🎓 Education
 
-### Master of Science in Health Informatics
-**George Mason University | Fairfax, VA**
+**Master of Science in Health Informatics**  
+George Mason University | Fairfax, Virginia
 
-Focus: **Health Data Analytics, Clinical Informatics, Database Management, Machine Learning, and Healthcare Analytics**
-
-### Bachelor of Pharmacy
-**Osmania University | India**
+**Bachelor of Pharmacy**  
+Osmania University | India
 
 ---
 
 ## 🏆 Certifications
 
-- ☁️ AWS Certified Cloud Practitioner
-- 🤖 AWS AI Practitioner
-- 📊 Google Advanced Data Analytics Certificate
-- 📈 Google R Programming
-- 💻 IBM Data Analytics
-- 📉 Power BI & Tableau for Data Visualization
-- 🧠 AI, Machine Learning & Deep Learning
-- 📊 SAS Certificate
-- 📑 Microsoft Excel
+- AWS Certified Cloud Practitioner
+- AWS Certified AI Practitioner
+- Google Advanced Data Analytics
+- Google R Programming
+- IBM Data Analytics
+- SAS Certificate
+- Power BI & Tableau for Data Visualization
+- Microsoft Excel
+- AI, Machine Learning & Deep Learning
 
 ---
 
-## 🎯 Areas of Expertise
+## 🎯 Areas of Interest
 
-`Clinical Data Science` • `Clinical Data Analytics` • `Clinical Trials` • `Clinical Data Management` • `SAS Programming` • `CDISC SDTM/ADaM` • `RWD/RWE` • `RBQM/RBM` • `Healthcare Analytics` • `Machine Learning` • `Data Visualization` • `Regulatory Compliance`
+`Clinical Data Analytics` • `Clinical Data Science` • `Clinical Data Management` • `Clinical Trials` • `CDISC` • `Statistical Programming` • `RBQM/RBM` • `RWD/RWE` • `Healthcare Analytics`
 
 ---
 
 ## 🤝 Let's Connect
 
-I am interested in opportunities and collaborations involving **Clinical Data Science, Clinical Data Analytics, Clinical Trials, Statistical Programming, RWD/RWE, Healthcare Analytics, and AI/ML applications in healthcare**.
-
 <p align="center">
 
-<a href="https://www.linkedin.com/in/saisankeerthana/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+<a href="https://www.linkedin.com/in/saisankeerthana">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
 <a href="mailto:Sankeerthanathatini@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white">
 </a>
 
 </p>
@@ -268,5 +207,9 @@ I am interested in opportunities and collaborations involving **Clinical Data Sc
 ---
 
 <p align="center">
-<b>Clinical Data • Healthcare Analytics • Data Science • Better Decisions</b>
+<b>Clinical Data • Clinical Trials • Data Quality • Analytics</b>
+</p>
+
+<p align="center">
+<i>All portfolio projects use synthetic data and are independent demonstrations of clinical data concepts. No sponsor, employer, patient, or proprietary clinical-trial data is included.</i>
 </p>
